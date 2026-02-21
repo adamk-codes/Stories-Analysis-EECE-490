@@ -14,9 +14,8 @@ From the data directly, we observe three clear linear bands in the Profit vs Qua
 
 Items seem to naturally cluster into high-slope (high-margin), medium-slope (moderate-margin), and negative-slope (loss-making) groups, suggesting structured pricing tiers and potential pricing inconsistencies.
 
-# Classification Idea:
 
-# Product Optimizer – Stories Coffee Chain
+# Classification Idea: Product Optimizer – Stories Coffee Chain
 
 This project helps the coffee shop chain (“Stories”) make data-driven
 decisions about promotions, pricing, and menu optimization.
@@ -36,7 +35,7 @@ Retail performance depends on two factors:
 1) Demand (popularity)
 2) Profit efficiency (margin)
 
-Because branches differ in size, we <u>normalize<u> all metrics to remove
+Because branches differ in size, we <ins>normalize</ins> all metrics to remove
 scale bias and enable fair comparison.
 
 
