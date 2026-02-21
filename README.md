@@ -143,7 +143,7 @@ This plot displays the Relative Margin Index (M), illustrating how product profi
 ### Store Performance with Average R Value
 This chart evaluates overall store performance using average demand strength, showing which branches sell stronger-performing product mixes.
 
-![Store Performance](Store performace with average R value.jpeg)
+![Store Performance](Store%20performace%20with%20average%20R%20value.jpeg)
 
 
 ### Final Classification of Product Clustering
