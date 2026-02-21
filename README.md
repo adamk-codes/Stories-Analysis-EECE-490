@@ -152,3 +152,31 @@ This scatter plot maps products based on R (popularity) and M (profitability), c
 ![Product Classification](Final%20Clssification%20of%20product%20clustering.jpeg)
 
 There are other images included in the files
+
+Seasonality Idea:
+Colab NoteBook: https://colab.research.google.com/drive/1wJzKJIWa1JtPZ__nzpzjW495d5-dts7i?authuser=1#scrollTo=012ce341
+## Seasonality Analysis (Branch-Level Insights)
+
+**Branches Analyzed:**  
+12 branches were selected based on consistent data availability throughout 2025. Some branches were excluded because they were not in operation or had insufficient data.
+
+**Method:**  
+Seasonality was quantified using a **linear regression model** on sine and cosine transformations of the month number (`Month_sin`, `Month_cos`) to capture cyclical patterns in monthly revenue.
+
+**Metrics Extracted:**
+- **Alpha (Intercept):** Average sales level independent of seasonality  
+- **Seasonality Strength (S):** Magnitude of seasonal variation  
+- **Peak Month:** Month with highest sales  
+
+**Key Findings:**
+- **Highest Average Sales:** `Stories Ain El Mreisseh` and `Stories Zalka` peaked in January.  
+- **Strongest Seasonal Variation:** `Stories Ramlet El Bayda` showed the most pronounced seasonality (peak in October). Other branches with significant seasonal patterns included `Ain El Mreisseh`, `Zalka`, `Khaldeh`, `Verdun`, and `Faqra`.  
+- **Diverse Peak Months:** Peak sales months varied across branches (January → October → November → December).  
+- **Relative Seasonality Impact:** `Stories Faqra`, despite lower average sales, had strong seasonal dependence, peaking in April.  
+- **Stable Sales:** `Stories Antelias` exhibited low seasonality, indicating steady sales throughout the year.  
+
+**Visualization:**  
+Line plots were generated to illustrate monthly revenue trends and confirm peak months and seasonal patterns for each branch.
+
+> Technical Note: Some pandas warnings appeared during computation due to version compatibility, but results were verified and unaffected.
+
