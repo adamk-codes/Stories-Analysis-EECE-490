@@ -9,7 +9,7 @@ The files were organized in excel and converted back to CSV format. Also, for th
 
 CLASSIFICATION IDEA:
 
-# AI Menu Optimizer – Stores Coffee Chain
+# Product Optimizer – Stores Coffee Chain
 
 This project helps a Lebanese coffee shop chain (“Stores”) make data-driven
 decisions about promotions, pricing, and menu optimization.
