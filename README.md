@@ -59,7 +59,7 @@ R < 1  -> Item is underperforming
 
 ### Example – Low R in Khaldeh Branch
 
-This figure shows an example of a low Item Share Percentage for the Khaldeh branch compared to the other eight top-performing branches, indicating that this item underperforms in popularity in this store, relative to its typical distribution across the top 8 stores.
+This figure shows an example of a low Item Share Percentage for the *Ramlet El Bayda* branch compared to the other eight top-performing branches (R = 0.5), indicating that this item underperforms in popularity in this store, relative to its typical distribution across the top 8 stores.
 
 ![Example_R](Example_R.png)
 
