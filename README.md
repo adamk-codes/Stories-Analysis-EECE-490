@@ -149,3 +149,6 @@ This chart evaluates overall store performance using average demand strength, sh
 This plot highlights seasonal sales trends, helping identify peak and low-demand periods across the year.
 
 ![Seasonality](Seasonality.jpeg)
+
+
+There are other images included in the files
