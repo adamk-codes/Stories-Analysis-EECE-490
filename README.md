@@ -40,7 +40,7 @@ scale bias and enable fair comparison.
 
 
 ## Relative Demand Index (R)
-
+In this section, i refers to an item and b to a branch.
 Step 1 – Revenue Share inside branch:
 
 Share(i,b) = Revenue(i,b) / TotalRevenue(b)
@@ -53,8 +53,10 @@ Step 3 – Relative Demand:
 
 R(i,b) = Share(i,b) / MedianShare(i)
 
+We chose median instead of mean because the median is more robust to outliers.
+
 Interpretation:
-R > 1  -> Item is more popular than typical
+R > 1  -> Item is more popular than typical branch (median share of that item over all branches)
 R < 1  -> Item is underperforming
 
 
@@ -76,6 +78,7 @@ Interpretation:
 M > 1  -> Higher margin than typical
 M < 1  -> Lower margin than peers
 
+R ~ 1 or M ~ 1 is very typical and indicates a product with similar share over all branches, usually outliers are > 2 or < 0.5
 
 ## Why Use Median Instead of Mean?
 
