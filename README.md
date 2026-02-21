@@ -16,9 +16,9 @@ Items seem to naturally cluster into high-slope (high-margin), medium-slope (mod
 
 # Classification Idea:
 
-# Product Optimizer – Stores Coffee Chain
+# Product Optimizer – Stories Coffee Chain
 
-This project helps a Lebanese coffee shop chain (“Stores”) make data-driven
+This project helps the coffee shop chain (“Stories”) make data-driven
 decisions about promotions, pricing, and menu optimization.
 
 We built a simple, explainable framework based on two normalized indices:
@@ -36,7 +36,7 @@ Retail performance depends on two factors:
 1) Demand (popularity)
 2) Profit efficiency (margin)
 
-Because branches differ in size, we normalize all metrics to remove
+Because branches differ in size, we <u>normalize</u> all metrics to remove
 scale bias and enable fair comparison.
 
 
