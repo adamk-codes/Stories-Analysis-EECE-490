@@ -135,20 +135,15 @@ This plot highlights seasonal sales trends, helping identify peak and low-demand
 ![Seasonality](Seasonality.jpeg)
 
 
-### Average Store Profitability per Store
-This plot compares overall branch margins, highlighting which stores operate more efficiently and which require optimization.
-
-![Average Store Profitability](Average Store profitability per store.jpeg)
-
 
 ### R Value Distribution
-This visualization shows the distribution of the Relative Demand Index (R), indicating how product popularity varies across branches.
+This visualization shows the distribution of the Relative Demand Index (R), indicating how product popularity varies across branches. Some vertical green bars indicate products that perform well over all brnaches, like *ORIGINAL YOGHURT COMBO SMALL* which seems to be the top among all items (about 3% of all sales).
 
 ![R Value](R_Value.jpeg)
 
 
 ### M Value Distribution
-This plot displays the Relative Margin Index (M), illustrating how product profitability differs compared to other stores.
+This plot displays the Relative Margin Index (M), illustrating how product profitability differs compared to other stores. The M tells us about the most profitable items over all branches.
 
 ![M Value](M%20value.jpeg)
 
@@ -159,6 +154,10 @@ This chart evaluates overall store performance using average demand strength, sh
 
 ![Store Performance](Store%20performace%20with%20average%20R%20value.jpeg)
 
+### Average Store Profitability per Store
+This plot compares overall branch margins, highlighting which stores operate more efficiently and which require optimization.
+
+![Average Store Profitability](Average%20Store%20profitability%20per%20store.jpeg)
 
 ### Final Classification of Product Clustering
 This scatter plot maps products based on R (popularity) and M (profitability), clearly separating items into strategic decision categories. According to the decion matrix we can recommend managers to change price, promote, review pricing, or consider removing the product.
