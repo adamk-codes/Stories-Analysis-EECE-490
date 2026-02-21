@@ -10,7 +10,7 @@ Not all data was needed, and many of the data were dropped, like inconsitent dat
 
 From the data directly, we observe three clear linear bands in the Profit vs Quantity plot, reflecting different unit margin structures implemented by Stores Café.
 
-![Profit vs Quantity](Profit%20vs%20Quantity.jpeg)
+![Profit vs Quantity](Trend.jpeg)
 
 Items seem to naturally cluster into high-slope (high-margin), medium-slope (moderate-margin), and negative-slope (loss-making) groups, suggesting structured pricing tiers and potential pricing inconsistencies.
 
