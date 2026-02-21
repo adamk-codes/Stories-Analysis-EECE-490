@@ -136,7 +136,7 @@ This plot displays the Relative Margin Index (M), illustrating how product profi
 ### Final Classification of Product Clustering
 This scatter plot maps products based on R (popularity) and M (profitability), clearly separating items into strategic decision categories.
 
-![Product Classification](Final Clssification of product clustering.jpeg)
+![Product Classification](Final%20Clssification%20of%20product%20clustering.jpeg)
 
 
 ### Store Performance with Average R Value
