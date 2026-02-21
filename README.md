@@ -1,6 +1,6 @@
 # Stories-Analysis-EECE-490
 Analysis of Stories Coffee sales data from 25 branches to uncover trends, insights, and patterns. Includes data cleaning, exploratory analysis, modeling, and visualizations for business decision support.
-For the CLASSIFICATION IDEA: all the snippets are included in this collab page, and all the cleaned data are attached under the files.
+For the CLASSIFICATION IDEA: all the snippets are included in this collab page, and all the cleaned data are attached under the file *CLEANED_REVIEWED_NEW_DATA.zip*
 
 https://colab.research.google.com/drive/1Axhsuemmginr2xaQQvgaNB5gLaoI0Mx4?usp=sharing
 
