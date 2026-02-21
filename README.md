@@ -112,3 +112,29 @@ The result is a simple, explainable,
 and data-driven product optimization engine.
 
 By separating popularity (R) from profitability (M), the system avoids common retail mistakes such as discounting already popular low-margin items or ignoring high-margin items with low visibility. The result is a simple, explainable, and data-driven product optimization engine.
+
+Seasonality Idea:
+## Seasonality Analysis (Branch-Level Insights)
+
+**Branches Analyzed:**  
+12 branches were selected based on consistent data availability throughout 2025. Some branches were excluded because they were not in operation or had insufficient data.
+
+**Method:**  
+Seasonality was quantified using a **linear regression model** on sine and cosine transformations of the month number (`Month_sin`, `Month_cos`) to capture cyclical patterns in monthly revenue.
+
+**Metrics Extracted:**
+- **Alpha (Intercept):** Average sales level independent of seasonality  
+- **Seasonality Strength (S):** Magnitude of seasonal variation  
+- **Peak Month:** Month with highest sales  
+
+**Key Findings:**
+- **Highest Average Sales:** `Stories Ain El Mreisseh` and `Stories Zalka` peaked in January.  
+- **Strongest Seasonal Variation:** `Stories Ramlet El Bayda` showed the most pronounced seasonality (peak in October). Other branches with significant seasonal patterns included `Ain El Mreisseh`, `Zalka`, `Khaldeh`, `Verdun`, and `Faqra`.  
+- **Diverse Peak Months:** Peak sales months varied across branches (January → October → November → December).  
+- **Relative Seasonality Impact:** `Stories Faqra`, despite lower average sales, had strong seasonal dependence, peaking in April.  
+- **Stable Sales:** `Stories Antelias` exhibited low seasonality, indicating steady sales throughout the year.  
+
+**Visualization:**  
+Line plots were generated to illustrate monthly revenue trends and confirm peak months and seasonal patterns for each branch.
+
+> Technical Note: Some pandas warnings appeared during computation due to version compatibility, but results were verified and unaffected.
