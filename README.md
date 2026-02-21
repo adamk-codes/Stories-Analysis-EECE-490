@@ -112,3 +112,40 @@ The result is a simple, explainable,
 and data-driven product optimization engine.
 
 By separating popularity (R) from profitability (M), the system avoids common retail mistakes such as discounting already popular low-margin items or ignoring high-margin items with low visibility. The result is a simple, explainable, and data-driven product optimization engine.
+
+## Visual Results
+
+### Average Store Profitability per Store
+This plot compares overall branch margins, highlighting which stores operate more efficiently and which require optimization.
+
+![Average Store Profitability](Average Store profitability per store.jpeg)
+
+
+### R Value Distribution
+This visualization shows the distribution of the Relative Demand Index (R), indicating how product popularity varies across branches.
+
+![R Value](R_Value.jpeg)
+
+
+### M Value Distribution
+This plot displays the Relative Margin Index (M), illustrating how product profitability differs compared to other stores.
+
+![M Value](M_value.jpeg)
+
+
+### Final Classification of Product Clustering
+This scatter plot maps products based on R (popularity) and M (profitability), clearly separating items into strategic decision categories.
+
+![Product Classification](Final Clssification of product clustering.jpeg)
+
+
+### Store Performance with Average R Value
+This chart evaluates overall store performance using average demand strength, showing which branches sell stronger-performing product mixes.
+
+![Store Performance](Store performace with average R value.jpeg)
+
+
+### Seasonality Analysis
+This plot highlights seasonal sales trends, helping identify peak and low-demand periods across the year.
+
+![Seasonality](Seasonality.jpeg)
