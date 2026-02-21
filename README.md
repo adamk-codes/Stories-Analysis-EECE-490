@@ -4,8 +4,15 @@ For the CLASSIFICATION IDEA: all the snippets are included in this collab page, 
 
 https://colab.research.google.com/drive/1Axhsuemmginr2xaQQvgaNB5gLaoI0Mx4?usp=sharing
 
-The files were organized in excel and converted back to CSV format. Also, for the files F014 and F191, addition featues such as division and group and location were added to orgmanize the data.
+# Data Cleaning and Review:
+The provided data were reports grouped by categories and sub-categories. And separated by page numbers and repeated headers, with different issue dates. The files were organized in excel and converted back to CSV format. In some of the files, like F014 and F191, additional featues such as division, group and branch (Stories location) were added to the raw data. We also verified the correctness of the cleaned data by comaparing existing totals with newly created totals (like comparing sum of the month with the provided total of the year from the POS system).
+Not all data was needed, and many of the data were dropped, like inconsitent data, and outliers. To remove outliers, we considered only the top 100 items sold (by revenue), as these are the meaning full items in each store (like coffee, yoghurts ...). From the data statistics, we found that in the main stores, only 15 items contributed to about 30% of the revenue of that branch.
 
+From the data directly, we observe three clear linear bands in the Profit vs Quantity plot, reflecting different unit margin structures implemented by Stores Café.
+
+![Profit vs Quantity](Profit%20vs%20Quantity.jpeg)
+
+Items seem to naturally cluster into high-slope (high-margin), medium-slope (moderate-margin), and negative-slope (loss-making) groups, suggesting structured pricing tiers and potential pricing inconsistencies.
 
 # Classification Idea:
 
