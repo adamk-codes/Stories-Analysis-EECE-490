@@ -136,7 +136,7 @@ This visualization shows the distribution of the Relative Demand Index (R), indi
 ### M Value Distribution
 This plot displays the Relative Margin Index (M), illustrating how product profitability differs compared to other stores.
 
-![M Value](M_value.jpeg)
+![M Value](M%20value.jpeg)
 
 
 
