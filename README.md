@@ -36,7 +36,7 @@ Retail performance depends on two factors:
 1) Demand (popularity)
 2) Profit efficiency (margin)
 
-Because branches differ in size, we <u>normalize</u> all metrics to remove
+Because branches differ in size, we <u>normalize<u> all metrics to remove
 scale bias and enable fair comparison.
 
 
