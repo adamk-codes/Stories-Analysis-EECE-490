@@ -193,6 +193,10 @@ These items underperform in both demand and profitability and may be candidates 
 
 ![Example 4](examples4.jpeg)
 
+# Final prospect:
+- An idea to consider is to make the analisis based on 3 groups besed on revenue (High, medium, low revenue branches).
+- Another idea is to consider revenue and cost data for each month instead of yearly revenue, since some shops were not open during some months of the year.
+
 # Seasonality Idea:
 Colab NoteBook: https://colab.research.google.com/drive/1wJzKJIWa1JtPZ__nzpzjW495d5-dts7i?authuser=1#scrollTo=012ce341
 ## Seasonality Analysis (Branch-Level Insights)
