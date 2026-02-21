@@ -115,6 +115,12 @@ By separating popularity (R) from profitability (M), the system avoids common re
 
 ## Visual Results
 
+### Seasonality Analysis
+This plot highlights seasonal sales trends, helping identify peak and low-demand periods across the year. This is from file 134.
+
+![Seasonality](Seasonality.jpeg)
+
+
 ### Average Store Profitability per Store
 This plot compares overall branch margins, highlighting which stores operate more efficiently and which require optimization.
 
@@ -133,11 +139,6 @@ This plot displays the Relative Margin Index (M), illustrating how product profi
 ![M Value](M_value.jpeg)
 
 
-### Final Classification of Product Clustering
-This scatter plot maps products based on R (popularity) and M (profitability), clearly separating items into strategic decision categories.
-
-![Product Classification](Final%20Clssification%20of%20product%20clustering.jpeg)
-
 
 ### Store Performance with Average R Value
 This chart evaluates overall store performance using average demand strength, showing which branches sell stronger-performing product mixes.
@@ -145,10 +146,9 @@ This chart evaluates overall store performance using average demand strength, sh
 ![Store Performance](Store performace with average R value.jpeg)
 
 
-### Seasonality Analysis
-This plot highlights seasonal sales trends, helping identify peak and low-demand periods across the year.
+### Final Classification of Product Clustering
+This scatter plot maps products based on R (popularity) and M (profitability), clearly separating items into strategic decision categories. According to the decion matrix we can recommend managers to change price, promote, review pricing, or consider removing the product.
 
-![Seasonality](Seasonality.jpeg)
-
+![Product Classification](Final%20Clssification%20of%20product%20clustering.jpeg)
 
 There are other images included in the files
