@@ -61,7 +61,7 @@ R < 1  -> Item is underperforming
 
 This figure shows an example of a low Item Share Percentage for the Khaldeh branch compared to the other eight top-performing branches, indicating that this item underperforms in popularity in this store, relative to its typical distribution across the top 8 stores.
 
-![Example R](Example_R.jpeg)
+![Example_R](Example_R.jpeg)
 
 Thid could bring attention to that item in that branch, which can help management decide where to look at. 
 
