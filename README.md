@@ -2,7 +2,7 @@
 Analysis of Stories Coffee sales data from 25 branches to uncover trends, insights, and patterns. Includes data cleaning, exploratory analysis, modeling, and visualizations for business decision support.
 For the CLASSIFICATION IDEA: all the snippets are included in this collab page, and all the cleaned data are attached under the file *CLEANED_REVIEWED_NEW_DATA.zip*
 
-https://colab.research.google.com/drive/1Axhsuemmginr2xaQQvgaNB5gLaoI0Mx4?usp=sharing
+https://colab.research.google.com/drive/1nyXRLSAEW42XTiyV7Ea3rsU48gbAjGw-?usp=sharing
 
 # Data Cleaning and Review:
 The provided data were reports grouped by categories and sub-categories. And separated by page numbers and repeated headers, with different issue dates. The files were organized in excel and converted back to CSV format. In some of the files, like F014 and F191, additional featues such as division, group and branch (Stories location) were added to the raw data. We also verified the correctness of the cleaned data by comaparing existing totals with newly created totals (like comparing sum of the month with the provided total of the year from the POS system).
