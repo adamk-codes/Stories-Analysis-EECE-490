@@ -57,7 +57,7 @@ Interpretation:
 R > 1  -> Item is more popular than typical branch (median share of that item over all branches)
 R < 1  -> Item is underperforming
 
-### Example – Low R in Khaldeh Branch
+### Example – Low R in Ramlet El Bayda Branch
 
 This figure shows an example of a low Item Share Percentage for the *Ramlet El Bayda* branch compared to the other eight top-performing branches (R = 0.5), indicating that this item underperforms in popularity in this store, relative to its typical distribution across the top 8 stores.
 
@@ -160,7 +160,7 @@ This plot compares overall branch margins, highlighting which stores operate mor
 ![Average Store Profitability](Average%20Store%20profitability%20per%20store.jpeg)
 
 ### Final Classification of Product Clustering
-This scatter plot maps products based on R (popularity) and M (profitability), clearly separating items into strategic decision categories. According to the decion matrix we can recommend managers to change price, promote, review pricing, or consider removing the product.
+This scatter plot maps products based on R (popularity) and M (profitability), clearly separating items into strategic decision categories. According to the decision matrix we can recommend managers to change price, promote, review pricing, or consider removing the product.
 
 ![Product Classification](Final%20Clssification%20of%20product%20clustering.jpeg)
 
@@ -194,7 +194,7 @@ These items underperform in both demand and profitability and may be candidates 
 ![Example 4](examples4.jpeg)
 
 # Final prospect:
-- An idea to consider is to make the analisis based on 3 groups besed on revenue (High, medium, low revenue branches).
+- An idea to consider is to make the analysis based on 3 groups besed on revenue (High, medium, low revenue branches).
 - Another idea is to consider revenue and cost data for each month instead of yearly revenue, since some shops were not open during some months of the year.
 
 # Seasonality Idea:
